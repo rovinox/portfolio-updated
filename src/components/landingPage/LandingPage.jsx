@@ -89,7 +89,13 @@ Core Technologies: React • TypeScript • Node.js • Python • .NET • Post
     textAlign: 'left',
     maxWidth: '800px',
     margin: '0 auto 40px auto',
-    animation: 'fadeInUp 1s ease-out 0.6s both'
+    animation: 'fadeInUp 1s ease-out 0.6s both',
+    backgroundColor: 'rgba(0, 0, 0, 0.6)',
+    backdropFilter: 'blur(10px)',
+    padding: '30px',
+    borderRadius: '15px',
+    border: '1px solid rgba(255, 255, 255, 0.1)',
+    boxShadow: '0 15px 30px rgba(0, 0, 0, 0.3)'
   };
 
   const socialLinksStyle = {
